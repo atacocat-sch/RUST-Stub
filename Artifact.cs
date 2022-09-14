@@ -14,5 +14,7 @@ public abstract class Artifact : ScriptableObject
     public Sprite icon;
     public Color baseColor;
 
-    public void Modify(Statboard ctx, ref float val);
+    public void Modify(Statboard ctx, string key, ref float val);
 }
+
+// Does artifact stuff

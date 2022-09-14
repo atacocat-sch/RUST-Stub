@@ -9,5 +9,7 @@ public class TriggerEvent : MonoBehaviour
     public LayerMask mask;
 
     [Space]
-    public UnityEvent OnTriggerEntered;
+    public UnityEvent TriggerEnteredEvent;
 }
+
+// Just needs to call TriggerEnteredEvent when the OnTriggerEntered message is called.

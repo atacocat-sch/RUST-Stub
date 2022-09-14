@@ -7,3 +7,5 @@ public class Hurtbox : MonoBehaviour
 {
     public float damage;
 }
+
+// Deals damage once to objects within trigger.

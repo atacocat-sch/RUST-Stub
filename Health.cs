@@ -21,3 +21,5 @@ public struct DamageArgs
     public GameObject damager;
     public float damage;
 }
+
+// Manages health values, takes damage, and dies when appropriate.

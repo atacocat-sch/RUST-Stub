@@ -7,3 +7,5 @@ public class SceneInstance : ScriptableObject
 {
     public int buildIndex;
 }
+
+// A reference solution to unity's abhorrent buildIndex scene loading.

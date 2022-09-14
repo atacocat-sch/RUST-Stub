@@ -10,3 +10,5 @@ public class GameData : ScriptableObject
 
     public void LoadNextLevel ();
 }
+
+// Holds data pertaining to the current run.

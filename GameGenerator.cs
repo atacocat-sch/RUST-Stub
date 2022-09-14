@@ -17,3 +17,5 @@ public class RoomGroup
     public int selectionCount;
     public List<SceneInstance> rooms;
 }
+
+// Propogates GameData's list of scenes with the current runs scenes.
